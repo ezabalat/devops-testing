@@ -2,8 +2,9 @@ name: Simulated 5-Step Pipeline (Fail on Phase 3)
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "dev" ]
   workflow_dispatch:
+
 
 jobs:
   simulated:

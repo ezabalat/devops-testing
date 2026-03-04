@@ -2,8 +2,9 @@ name: Simulated 5-Step Pipeline
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "dev" ]
   workflow_dispatch:
+
 
 jobs:
   simulated:
