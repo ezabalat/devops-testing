@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/TU_USUARIO/TU_REPO.git'
+                git 'https://github.com/ezabalat/devops-testing.git'
             }
         }
 
